@@ -10,6 +10,7 @@ import Prateek from '../../assets/images/team/Prateek.jpg'
 import Praveen from '../../assets/images/team/Praveen.jpg'
 import Manish from '../../assets/images/team/manish.jpg'
 import Naveen from '../../assets/images/team/Naveen.jpg'
+import Manju from '../../assets/images/team/Manjunath PC.jpg'
 // Import team section background image
 import teamBg from '../../assets/images/experiences/team-bg.jpg'
 
@@ -33,7 +34,7 @@ const Team: React.FC = () => {
     { name: "Praveen Patkar", role: "RT Hyderabad Admin", location: "Hyderabad", image: Praveen },
     { name: "Manish Khandat", role: "RT Hyderabad Admin", location: "Hyderabad", image: Manish },
     { name: "Prateek Swarnkar", role: "RT Cruise Admin", location: "Cruise", image: Prateek },
-    { name: "Manju PC", role: "RT Mysuru Admin", location: "Mysuru", image: rider },
+    { name: "Manju PC", role: "RT Mysuru Admin", location: "Mysuru", image: Manju },
     { name: "Darshan Kalmane", role: "RT Shivmoga Admin", location: "Shivmoga", image: rider },
     { name: "Karthick", role: "RT Coimbatore Admin", location: "Coimbatore", image: rider },
     { name: "Arun Hilson", role: "RT Chennai Admin", location: "Chennai", image: rider },
