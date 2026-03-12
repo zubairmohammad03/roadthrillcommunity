@@ -58,7 +58,7 @@ const Header: React.FC = () => {
             {/* Left: Logo and tagline */}
             <div className="flex items-center gap-3 lg:gap-4">
               <a href="/" className="flex items-center">
-                <img src={logo} alt="RoadThrill" className="h-7 lg:h-8 w-auto" />
+                <img src={logo} alt="RoadThrill" className="h-10 lg:h-11 w-auto" />
               </a>
               <div className="hidden md:block text-[7px] lg:text-[8px] tracking-[0.3em] text-gray-300/80 uppercase whitespace-nowrap font-medium">
                 MEET • TRAVEL • DISCOVER
