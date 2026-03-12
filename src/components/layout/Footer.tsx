@@ -1,6 +1,6 @@
 // src/components/layout/Footer.tsx
 import React from 'react'
-import { Facebook, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react'
+import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from 'lucide-react'
 
 const Footer: React.FC = () => {
   return (
@@ -53,14 +53,14 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-display text-lg font-semibold mb-4">Follow the Thrill</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/share/g/1L6YCrkhBM/?mibextid=wwXIfr" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/roadthrill?igsh=MWVuN3czM2RiZmZ3ZQ==" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Youtube size={24} />
+              <a href="https://x.com/road_thrill?s=11&t=rJ9lEZrn5KAFZ1QS_RUQVA" className="text-gray-400 hover:text-white transition-colors">
+                <Twitter size={24} />
               </a>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-import { Mail, Phone, MapPin, Facebook, Instagram, Youtube, MessageSquare, Send, CheckCircle, AlertCircle } from 'lucide-react'
+import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube, MessageSquare, Send, CheckCircle, AlertCircle } from 'lucide-react'
 
 // Your Google Apps Script URL for contact form
 const CONTACT_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzkaK7D9Qk1unyu5LAAkegHsUSeDnNtTa_N1jvORl9ldN3lEIhHg39WjO3cApL_N08/exec' // Replace with your deployed URL
@@ -124,9 +124,9 @@ const Contact: React.FC = () => {
               </p>
               <div className="flex gap-4">
                 {[
-                  { Icon: Facebook, href: '#', label: 'Facebook', color: 'hover:bg-blue-600' },
-                  { Icon: Instagram, href: 'https://www.instagram.com/direct/t/115664406484445/', label: 'Instagram', color: 'hover:bg-pink-600' },
-                  { Icon: Youtube, href: '#', label: 'YouTube', color: 'hover:bg-red-600' },
+                  { Icon: Facebook, href: 'https://www.facebook.com/share/g/1L6YCrkhBM/?mibextid=wwXIfr', label: 'Facebook', color: 'hover:bg-blue-600' },
+                  { Icon: Instagram, href: 'https://www.instagram.com/roadthrill?igsh=MWVuN3czM2RiZmZ3ZQ==', label: 'Instagram', color: 'hover:bg-pink-600' },
+                  { Icon: Twitter, href: 'https://x.com/road_thrill?s=11&t=rJ9lEZrn5KAFZ1QS_RUQVA', label: 'Twitter', color: 'hover:bg-blue-400' },
                   { Icon: MessageSquare, href: '#', label: 'WhatsApp', color: 'hover:bg-green-600' }
                 ].map(({ Icon, href, label, color }) => (
                   <a
