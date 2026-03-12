@@ -24,7 +24,11 @@ import unchartedImg2 from '../../assets/images/experiences/uncharted/un-1.jpg'
 import unchartedImg3 from '../../assets/images/experiences/uncharted/un-2.jpg'
 import unchartedImg4 from '../../assets/images/experiences/uncharted/un-3.jpg'
 import unchartedImg5 from '../../assets/images/experiences/uncharted/un-4.jpg'
-import ladakhImg from '../../assets/images/experiences/Leh/Leh-2.jpg'
+import ladakh1 from '../../assets/images/experiences/Ladakh/1.jpg'
+import ladakh2 from '../../assets/images/experiences/Ladakh/2.jpg'
+import ladakh3 from '../../assets/images/experiences/Ladakh/3.jpg'
+import ladakh4 from '../../assets/images/experiences/Ladakh/4.jpg'
+import ladakh5 from '../../assets/images/experiences/Ladakh/5.jpg'
 
 interface Experience {
   id: number
@@ -48,7 +52,7 @@ const imageMap: Record<string, string> = {
   'Leh Ride': lehImg1,
   'Vietnam Ride': vietnamImg1,
   'Uncharted Terrains': unchartedImg1,
-  'Ladakh Ride': ladakhImg,
+  'Ladakh Ride': ladakh1,
 }
 
 // Create gallery images mapping for modal
@@ -75,11 +79,11 @@ const galleryImageMap: Record<string, string[]> = {
     unchartedImg5
   ],
   'Ladakh Ride': [
-    ladakhImg,
-    ladakhImg,
-    ladakhImg,
-    ladakhImg,
-    ladakhImg,
+    ladakh1,
+    ladakh2,
+    ladakh3,
+    ladakh4,
+    ladakh5,
   ],
 }
 
